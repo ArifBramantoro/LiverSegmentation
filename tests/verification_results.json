@@ -1,0 +1,24 @@
+{
+  "test_curvature_flow_matches_analytic": {
+    "r0": 40.0,
+    "r_numeric": 37.78,
+    "r_analytic": 37.95
+  },
+  "test_legacy_curvature_is_antidiffusive": {
+    "r_start": 39.99,
+    "r_after_200_legacy_steps": 43.87
+  },
+  "test_legacy_edge_rule_can_only_shrink": {
+    "dice_of_perfect_input": 1.0,
+    "dice_after_legacy_edge": 0.1464,
+    "area_ratio": 0.079
+  },
+  "test_corrected_variants_behave_sensibly": {
+    "unet_input_dice": 0.8382,
+    "init_only": 0.7848,
+    "curvature_only": 0.7842,
+    "edge": 0.9708,
+    "region": 0.9946,
+    "texture": 0.8997
+  }
+}
